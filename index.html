@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="./css/all.min.css"/>
+    <link rel="stylesheet" href="./css/style.css"/>
+</head>
+<body>
+
+
+    <nav id="navBar">
+    <div id="cartIcon">
+    <i class="fa-solid fa-cart-shopping"></i>
+    <span id="cartCount">0</span>
+    </div>
+    </nav>
+            
+   <div id="Items">
+
+    <div class="cartItems">
+     <img src="./images/Van Cleef.jpg" alt="notFound"/>
+     <h2>Van Cleef</h2>
+     <p>Elegant Van Cleef bracelet with a timeless design that adds a touch of luxury and sophistication to any look. Crafted with exquisite attention.</p>
+     <p class="price"><span>$</span>5000</p>
+     <button class="addToCart" data-price="5000">Add To Cart</button>
+    </div>
+
+    <div class="cartItems">
+     <img src="./images/Cartier.jpg" alt="notFound"/>
+     <h2>Cartier Love Bracelet</h2>
+     <p>The iconic Cartier Love Bracelet, a timeless symbol of elegance, commitment, and everlasting love. Designed with sleek sophistication and unmatched craftsmanship.</p>
+     <p class="price"><span>$</span>7500</p>
+    <button class="addToCart" data-price="7500">Add To Cart</button>
+    </div>
+
+    <div class="cartItems">
+     <img src="./images/Cartier2.jpg" alt="notFound"/>
+     <h2>Cartier Juste un Clou Bracelet</h2>
+     <p>The Cartier Juste un Clou bracelet, a bold and modern design that transforms a simple nail into a statement of luxury and individuality.</p>
+     <p class="price"><span>$</span>6000</p>
+     <button class="addToCart" data-price="6000">Add To Cart</button>
+    </div>
+
+    <div class="cartItems">
+     <img src="./images/Bvlgari Serpenti Viper2.jpg" alt="notFound"/>
+     <h2>Bvlgari Serpenti Viper</h2>
+     <p>The Bvlgari Serpenti Viper bracelet coils gracefully around the wrist, combining sleek geometry with the symbolic power of the serpent.</p>
+     <p class="price"><span>$</span>9000</p>
+     <button class="addToCart" data-price="9000">Add To Cart</button>
+    </div>
+   </div>
+
+    <div id="cartContainer" class="hidden">
+    <h3>Your Cart</h3>
+    <ul id="cartItemsList"></ul>
+    <p>Total: <span class="dollar">$</span><span id="cartTotal">0</span></p>
+    </div>
+
+
+
+
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
